@@ -2,7 +2,7 @@
 ## About
 Darkness jekyll
 
-###### Demo
+###### Live
 - host github : https://rokhimin.github.io
 - host heroku : https://rokhimin-darkness.herokuapp.com
 - host netlify : https://jekyll-rokhimin.netlify.com

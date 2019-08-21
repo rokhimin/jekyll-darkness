@@ -12,7 +12,7 @@ header-img: assets/img/banner.jpg
     data-theme="{{ site.theme-color }}"
     style="{% if page.header-img %}background: url({{ page.header-img | relative_url }}) no-repeat center center; background-size: cover;{% endif %}">
     <h2>Projects</h2>
-    <h3>List my Projects</h3>
+    <h3>all my public projects</h3>
 </div>
 
 <main class="g-container home-content">
@@ -21,13 +21,17 @@ header-img: assets/img/banner.jpg
 
     <div class="article-list">
     <ul class="tags-list">
-        
+        <center>
         <li>
-        	<article class="markdown-body">
-        	hi 
-        	wecome to my projects
-    </article>
+            <font size="13px"><bold>My Projects</bold></font></br></br>
+
+            <ul>
+            <li><a href="{{ '' | relative_url }}/darkness.rb"><font size="5px">Darkness Jekyll</font></a></li>   
+            <li><a href="{{ '' | relative_url }}/first-banner-blog.rb"><font size="5px">Banner myBlog</font></a></li>
+            </ul>
+​
         </li>
+    </center>
     </ul>
     </div>
 

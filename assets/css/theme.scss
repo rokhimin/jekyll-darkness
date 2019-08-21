@@ -263,7 +263,7 @@ nav {
   border-top: 2px #c98e0e solid;
   border-bottom: 1px #222 solid;
   .navbar-brand, .nav-link {
-   color: #777;
+   color: #c98e0e;
    @include transition(color 0.31s);
    transition: all .7s ease;
   }
@@ -272,7 +272,7 @@ nav {
   }
   .navbar-brand {
     font-size: 30px;
-    color: #777;
+    color: #c98e0e;
   }
   .navbar-nav {
     margin-left: auto;

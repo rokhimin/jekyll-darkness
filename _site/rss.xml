@@ -5,16 +5,72 @@
     <description>Private Blog and my notes</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 21 Aug 2019 16:20:02 +0700</pubDate>
-    <lastBuildDate>Wed, 21 Aug 2019 16:20:02 +0700</lastBuildDate>
+    <pubDate>Wed, 21 Aug 2019 18:26:46 +0700</pubDate>
+    <lastBuildDate>Wed, 21 Aug 2019 18:26:46 +0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Darkness</title>
+        <description>&lt;h3 id=&quot;darkness&quot;&gt;Darkness&lt;/h3&gt;
+&lt;p&gt;A Dark blog built with jekyllrb&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://heroku.com/deploy&quot;&gt;&lt;img src=&quot;https://www.herokucdn.com/deploy/button.png&quot; alt=&quot;Deploy&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;clone this repo &lt;a href=&quot;https://github.com/rokhimin/discordrb-heroku&quot;&gt;Discordrb-heroku&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;add your token and userid in config/config.rb&lt;/li&gt;
+  &lt;li&gt;deploy&lt;/li&gt;
+  &lt;li&gt;open console bash in website heroku or &lt;code class=&quot;highlighter-rouge&quot;&gt;heroku run bash&lt;/code&gt; in git CLI&lt;/li&gt;
+  &lt;li&gt;execute in bash &lt;code class=&quot;highlighter-rouge&quot;&gt;ruby linkstart.rb&lt;/code&gt;
+    &lt;h4 id=&quot;voilaa-bot-running&quot;&gt;VOILAA.. bot running&lt;/h4&gt;
+    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/pDXB8GQ.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;nb&quot;&gt;nb&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;you need add-ons &lt;a href=&quot;https://elements.heroku.com/addons/scheduler&quot;&gt;Heroku Scheduler&lt;/a&gt; for continuesly run bot . to use add-ons account heroku need verification CreditCard&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 11 Aug 2019 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/darkness.rb</link>
+        <guid isPermaLink="true">http://localhost:4000/darkness.rb</guid>
+        
+        <category>jekyll</category>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>My Banner Blog</title>
+        <description>&lt;h3 id=&quot;my-banner-blog&quot;&gt;My Banner Blog&lt;/h3&gt;
+&lt;p&gt;the first banner for my blog&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/img/banner.jpg&quot; alt=&quot;Deploy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Link download :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://a.com&quot;&gt;A drive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 05 Aug 2019 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/first-banner-blog.rb</link>
+        <guid isPermaLink="true">http://localhost:4000/first-banner-blog.rb</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
     
       <item>
         <title>Deploy Discordrb to Heroku</title>
         <description>&lt;h3 id=&quot;deploy-discordrb-to-heroku--yes-its-very-easy&quot;&gt;deploy Discordrb to heroku ? yes it’s very easy&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://heroku.com/deploy&quot;&gt;&lt;img src=&quot;https://www.herokucdn.com/deploy/button.png&quot; alt=&quot;Deploy&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;Step by step :&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;clone this repo &lt;a href=&quot;https://github.com/rokhimin/discordrb-heroku&quot;&gt;Discordrb-heroku&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;add your token and userid in config/config.rb&lt;/li&gt;

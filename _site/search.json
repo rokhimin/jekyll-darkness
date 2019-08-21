@@ -1,6 +1,18 @@
 [
   
     {
+      "title"    : "Darkness",
+      "tags"     : "jekyll",
+      "url"      : "/darkness.rb"
+    } ,
+  
+    {
+      "title"    : "My Banner Blog",
+      "tags"     : "",
+      "url"      : "/first-banner-blog.rb"
+    } ,
+  
+    {
       "title"    : "Deploy Discordrb to Heroku",
       "tags"     : "ruby discordrb",
       "url"      : "/discordrb-heroku.rb"

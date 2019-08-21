@@ -98,11 +98,11 @@ blockquote.note p, blockquote.warning p { height: 48px; vertical-align: middle; 
 
 nav { background-color: #222; border-color: #080808; opacity: 0.95; font-size: 18px; font-family: "Ubuntu", sans-serif; padding: 0 10px !important; border-top: 2px #c98e0e solid; border-bottom: 1px #222 solid; }
 
-nav .navbar-brand, nav .nav-link { color: #777; -webkit-transition: color 0.31s; -moz-transition: color 0.31s; -ms-transition: color 0.31s; -o-transition: color 0.31s; transition: color 0.31s; transition: all .7s ease; }
+nav .navbar-brand, nav .nav-link { color: #c98e0e; -webkit-transition: color 0.31s; -moz-transition: color 0.31s; -ms-transition: color 0.31s; -o-transition: color 0.31s; transition: color 0.31s; transition: all .7s ease; }
 
 nav .navbar-brand:hover, nav .nav-link:hover { color: white !important; }
 
-nav .navbar-brand { font-size: 30px; color: #777; }
+nav .navbar-brand { font-size: 30px; color: #c98e0e; }
 
 nav .navbar-nav { margin-left: auto; }
 

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSSFeed to discord with Zapier - Rokhimin whd | site</title>
+    <meta name="author"  content="Rokhimin whd">
+    <meta name="description" content="RSSFeed to discord with Zapier">
+    <meta name="keywords"  content="automation">
+    <!-- Open Graph -->
+    <meta property="og:title" content="RSSFeed to discord with Zapier - Rokhimin whd | site">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://localhost:4000/rssfeed-to-discord-with-zapier.rb">
+    <meta property="og:description" content="Private Blog and my notes">
+    <meta property="og:site_name" content="Rokhimin whd | site">
+    <link rel="stylesheet" href="//cdn.staticfile.org/normalize/6.0.0/normalize.min.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_roc50gemkxpw4s4i.css">
+    <link rel="stylesheet" href="/assets/css/github-markdown.css">
+    <link rel="stylesheet" href="/assets/css/prism.css">
+    <link rel="stylesheet" href="/assets/css/share.min.css">
+    <link rel="stylesheet" href="/assets/css/app.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/bootstrap4.min.js"></script>
+    <script src="/assets/js/header.js"></script>
+    <script src="/assets/css/svg-with-js/js/fontawesome-all.js"></script>
+    <link href="/assets/css/bootstrap4.min.css" rel="stylesheet">
+    <link href="/assets/css/theme.css" rel="stylesheet">
+    <link href="/assets/css/syntax.css" rel="stylesheet">
+	
+    
+<style>
+    .markdown-body .anchor{
+        float: left;
+        margin-top: -8px;
+        margin-left: -20px;
+        padding-right: 4px;
+        line-height: 1;
+        opacity: 0;
+    }
+    
+    .markdown-body .anchor .anchor-icon{
+        font-size: 15px
+    }
+</style>
+<script>
+    $(document).ready(function() {
+        let nodes = document.querySelector(".markdown-body").querySelectorAll("h1,h2,h3")
+        for(let node of nodes) {
+            var anchor = document.createElement("a")
+            var anchorIcon = document.createElement("i")
+            anchorIcon.setAttribute("class", "fa fa-anchor fa-lg anchor-icon")
+            anchorIcon.setAttribute("aria-hidden", true)
+            anchor.setAttribute("class", "anchor")
+            anchor.setAttribute("href", "#" + node.getAttribute("id"))
+            
+            anchor.onmouseover = function() {
+                this.style.opacity = "0.4"
+            }
+            
+            anchor.onmouseout = function() {
+                this.style.opacity = "0"
+            }
+            
+            anchor.appendChild(anchorIcon)
+            node.appendChild(anchor)
+        }
+    })
+</script>
+</head>
+
+
+<body>
+  <input id="nm-switch" type="hidden" value="true"> <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/">rokhiminwhd</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="/">Home</a>
+                <a class="nav-item nav-link" href="/projects">Projects</a>
+                <a class="nav-item nav-link" href="/tags">Tags</a>
+                <a class="nav-item nav-link" href="/about">About</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+  <header
+    class="g-banner post-header post-pattern-assets/img/banner.jpg bgcolor-default "
+    data-theme="default"
+  >
+    <div class="post-wrapper">
+      <div class="post-tags">
+        
+          
+            <a href="/tags.html#automation" class="post-tag">automation</a>
+          
+        
+      </div>
+      <h1>RSSFeed to discord with Zapier</h1>
+      <div class="post-meta">
+        <span class="post-meta-item"><i class="iconfont icon-author"></i>Rokhimin whd</span>
+        <time class="post-meta-item" datetime="19-06-10"><i class="iconfont icon-date"></i>10 Jun 2019</time>
+      </div>
+    </div>
+    
+    <div class="filter"></div>
+      <div class="post-cover" style="background: url('https://s8333.pcdn.co/wp-content/uploads/edd/2015/07/zapier-product-image.png') center no-repeat; background-size: cover;"></div>
+    
+  </header>
+
+  <div class="post-content visible">
+    
+
+    <article class="markdown-body">
+      <h1 id="rssfeeddiscord-with-zapier">rssfeed&gt;discord with zapier</h1>
+<p>Tutorial How to make autopost bot discord from rss feed. <a href="https://github.com/rokhimin/rssfeed-to-discord-with-huginn">Alternative with Huginn</a></p>
+
+<p>*for example, if get new feed from website anime will be post to discord
+<a href="https://gifyu.com/image/EcKY"><img src="https://s3.gifyu.com/images/example-rssfeed-discord-whd.md.jpg" alt="example-rssfeed-discord-whd.md.jpg" /></a></p>
+
+<h1 id="flow">Flow</h1>
+<p>Source Rss feed &gt; (Zapier) RSS Feed &gt; Formatter &gt; Webhooks &gt; Discord</p>
+
+<h1 id="setup-discord">Setup Discord</h1>
+<ul>
+  <li>Server settings &gt; webhooks &gt; create webhooks</li>
+  <li>save your webhooks url</li>
+</ul>
+
+<h1 id="setup-zapier">Setup Zapier</h1>
+<ul>
+  <li>go to https://zapier.com</li>
+  <li>Create new apps</li>
+</ul>
+
+<h6 id="rss-event">Rss Event</h6>
+<p><a href="https://gifyu.com/image/EcNu"><img src="https://s3.gifyu.com/images/rss1.md.jpg" alt="rss1.md.jpg" /></a></p>
+
+<h6 id="formatter-event-optional">Formatter Event (optional)</h6>
+<ul>
+  <li>Extract URL 
+<a href="https://gifyu.com/image/EcNW"><img src="https://s3.gifyu.com/images/formatter1.md.jpg" alt="formatter1.md.jpg" /></a></li>
+</ul>
+
+<h6 id="webhooks-event">Webhooks Event</h6>
+<ul>
+  <li>Action : Custom Request</li>
+  <li>Method : POST</li>
+  <li>Url : <em>your webhooks url</em></li>
+  <li>Data :  *example
+    <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span>
+<span class="err">"content":</span> <span class="err">"***[UPDATE</span> <span class="err">ANIME]***</span> <span class="err">@everyone",</span>
+<span class="err">"embeds":</span> <span class="err">[{</span>
+  <span class="err">"title":</span> <span class="err">"__****__",</span>
+      <span class="err">"description":</span> <span class="err">"",</span>
+      <span class="err">"url":</span> <span class="err">"",</span>
+      <span class="err">"color":</span> <span class="err">"1127128",</span>
+      <span class="err">"image":</span> <span class="err">{</span>
+        <span class="err">"url":</span> <span class="err">""</span> 
+        <span class="p">}</span>
+<span class="err">}</span><span class="o">]</span>
+<span class="err">}</span>
+</code></pre></div>    </div>
+    <p><a href="https://gifyu.com/image/EcNa"><img src="https://s3.gifyu.com/images/jahd8383883.md.jpg" alt="jahd8383883.md.jpg" /></a></p>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Headers : Content-Type</td>
+          <td>application/json</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>test your app</li>
+</ul>
+
+<p>Thankyou :)</p>
+
+
+    </article>
+
+    
+  </div>
+
+  <section class="author-detail">
+    <section class="post-footer-item author-card">
+      <div class="avatar">
+        <img src="/assets/img/profile.png" alt="">
+      </div>
+      <div class="author-name" rel="author">Rokhimin whd</div>
+      <div class="bio">
+        <p>hi @everyone, im programmer ruby on rails. blogging as my hobby</p>
+      </div>
+      
+      <ul class="sns-links">
+        
+        <li>
+          <a href="mailto:whdzera@gmail.com" target="_blank">
+                    <i class="iconfont icon-email"></i>
+                </a>
+        </li>
+        
+        <li>
+          <a href="//github.com/rokhimin" target="_blank">
+                    <i class="iconfont icon-github"></i>
+                </a>
+        </li>
+        
+        <li>
+          <a href="//www.linkedin.com/in/rokhim-wahid-4b4209142" target="_blank">
+                    <i class="iconfont icon-linkedin"></i>
+                </a>
+        </li>
+        
+        <li>
+          <a href="//www.instagram.com/rokhiminwahid" target="_blank">
+                    <i class="iconfont icon-instagram"></i>
+                </a>
+        </li>
+        
+        <li>
+          <a href="//twitter.com/rokhiminwahid" target="_blank">
+                    <i class="iconfont icon-twitter"></i>
+                </a>
+        </li>
+        
+      </ul>
+      
+    </section>
+    <section class="post-footer-item read-next">
+      
+      <div class="read-next-item">
+        <a href="/discordrb-heroku.rb" class="read-next-link"></a>
+        <section>
+          <span>Deploy Discordrb to Heroku</span>
+          <p>deploy Discordrb to heroku ? yes it’s very easy</p>
+        </section>
+        
+        <div class="filter"></div>
+        <img src="https://buddy.works/guides/thumbnails/cover-heroku.png" alt="">
+        
+     </div>
+      
+
+      
+      <div class="read-next-item">
+        <a href="/rssfeed-to-discord-with-huginn.rb" class="read-next-link"></a>
+          <section>
+            <span>RSSFeed to discord with Huginn</span>
+            <p>rssfeed&gt;discord with HuginnTutorial How to make autopo...</p>
+          </section>
+          
+          <div class="filter"></div>
+          <img src="https://s3.gifyu.com/images/bRbiKTIgzlOxELuPpm71BQlLmPujDKtnyhQhiSC_uoX4OCzX-SVLu8rTW3dFIhF89VIDpcomHDKjBUGMCh4bPg63J4c2INAkb0WtEKUw5000-h5000.png" alt="">
+          
+      </div>
+      
+    </section>
+    
+    <section class="post-footer-item comment">
+        <div id="disqus_thread"></div>
+    </section>
+    
+  </section>
+
+  <footer class="g-footer">
+  <section>[/] with ❤ by Rokhimin whd ©
+  
+  
+  2019
+  </section>
+  <section>Powered by <a href="//jekyllrb.com">Jekyll</a> x Darkness</section>
+</footer>
+
+
+  <script src="/assets/js/social-share.min.js"></script>
+  <script>
+    socialShare('.social-share', {
+      sites: [
+        
+          'vk'
+          ,
+          
+        
+          'facebook'
+          ,
+          
+        
+          'twitter'
+          
+        
+      ],
+      wechatQrcodeTitle: "分享到微信朋友圈",
+      wechatQrcodeHelper: '<p>扫码后点击右上角</p><p>将本文分享至朋友圈</p>'
+    });
+  </script>
+
+  
+  <script>
+   
+    (function() { 
+      var d = document, s = d.createElement('script');
+      s.src = 'https://rokhimin.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  
+
+  <script src="/assets/js/prism.js"></script>
+  <script src="/assets/js/index.min.js"></script>
+</body>
+
+</html>

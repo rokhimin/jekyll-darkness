@@ -21,7 +21,6 @@ GEM
       sass (~> 3.4)
     jekyll-watch (1.3.1)
       listen (~> 3.0)
-    jekyll-paginate (1.1.0)
     kramdown (1.16.1)
     liquid (4.0.0)
     listen (3.1.5)
@@ -56,14 +55,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll
-  kramdown
-  puma 
-  rack-jekyll 
-  rake 
-  yajl-ruby
-  jekyll-watch 
-  jekyll-paginate
+  jekyll (= 3.6.2)
+  kramdown (= 1.16.1)
+  puma (= 3.11.0)
+  rack-jekyll (= 0.5.0)
+  rake (= 12.3.0)
+  yajl-ruby (= 1.3.1)
 
 RUBY VERSION
    ruby 2.4.2p198

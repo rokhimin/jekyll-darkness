@@ -8,7 +8,7 @@
 Darkness jekyll
 
 ###### Live
-- host github : https://rokhimin.github.io
+- host github : https://git.io/fjb5m
 - host heroku : https://rokhimin-darkness.herokuapp.com
 - host netlify : https://rokhimin-darkness.netlify.com
 

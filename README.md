@@ -4,7 +4,7 @@
 ![Coverage Status](https://img.shields.io/badge/coverage-99%25-green)
 
 <a href="https://github.com/rokhimin/Darkness"><img src="https://media.tenor.com/images/0a3605d63dcca393d5b50f78e3cc87b0/tenor.gif" width="250" align="right"/></a>
-# Darkness singlepage
+# Darkness
 ## About
 Darkness jekyll
 
@@ -24,6 +24,9 @@ Darkness jekyll
 ## Test Locally
 - ``bundle install``
 - ``jekyll s``
+
+## Another Version
+SinglePage : https://github.com/rokhimin/Darkness-singlepage
 
 ## License 
 MIT License.

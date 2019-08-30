@@ -6,7 +6,7 @@
 <a href="https://github.com/rokhimin/Darkness"><img src="https://media.tenor.com/images/0a3605d63dcca393d5b50f78e3cc87b0/tenor.gif" width="250" align="right"/></a>
 # Darkness
 ## About
-Darkness jekyll
+blog static using jekyll 
 
 ###### Live
 - host github : https://git.io/fjb5m
@@ -26,7 +26,7 @@ Darkness jekyll
 - ``jekyll s``
 
 ## Another Version
-[Jekyll Darkness SinglePage](https://github.com/rokhimin/Darkness-singlepage)
+[Jekyll Darkness SinglePage](https://github.com/rokhimin/jekyll-darkness-singlepage)
 
 ## License 
 MIT License.

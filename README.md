@@ -23,7 +23,7 @@ blog static using jekyll
 
 ## Test Locally
 - ``bundle install``
-- ``jekyll s``
+- ``bundle exec jekyll s``
 
 ## Another Version
 [Jekyll Darkness SinglePage](https://github.com/rokhimin/jekyll-darkness-singlepage)

@@ -6,7 +6,7 @@
 <a href="https://github.com/rokhimin/Darkness"><img src="https://media.tenor.com/images/0a3605d63dcca393d5b50f78e3cc87b0/tenor.gif" width="250" align="right"/></a>
 # Darkness
 ## About
-blog static using jekyll 
+blog static using jekyll inspired h20
 
 ###### Live
 - host github : https://git.io/fjb5m

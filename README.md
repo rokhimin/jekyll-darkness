@@ -8,7 +8,6 @@
 blog static using jekyll inspired h20
 
 ###### Live
-- host github : https://rokhimin.github.io/jekyll-darkness
 - host heroku : https://rokhimin-darkness.herokuapp.com
 - host netlify : https://rokhimin-darkness.netlify.com
 

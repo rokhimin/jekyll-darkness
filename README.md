@@ -23,8 +23,5 @@ blog static using jekyll inspired h20
 - ``bundle install``
 - ``bundle exec jekyll s``
 
-## Another Version
-[Jekyll Darkness SinglePage](https://github.com/rokhimin/jekyll-darkness-singlepage)
-
 ## License 
 MIT License.

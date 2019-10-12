@@ -1,7 +1,5 @@
-![Darkness](https://img.shields.io/badge/jekyll-Darkness-%23222)
-![Gem Version](https://img.shields.io/badge/Gem-v%202.6.3-red)
 ![Build Status](https://travis-ci.com/rokhimin//jekyll-darkness.svg?branch=master)
-![Coverage Status](https://img.shields.io/badge/coverage-99%25-green)
+![Coverage Status](https://img.shields.io/badge/coverage-99%25-brightgreen)
 
 # Darkness
 ## About

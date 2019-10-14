@@ -37,6 +37,7 @@ def self.create_translation(phrase_id,
                             allow_verification)
   ...
 end
+         
 
 # good
 def self.create_translation(

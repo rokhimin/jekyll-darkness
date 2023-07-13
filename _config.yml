@@ -1,6 +1,6 @@
 # Site settings 
-title: 'Rokhimin whd | site'
-description: 'Private Blog and my notes'
+title: 'J4f3th Blog'
+description: 'Blog acerca de hacking y ciberseguridad.'
 keyword: 'ruby, rails, sinatra, javascript, vuejs, expressjs'
 url: '' 
 baseurl: ''
@@ -17,9 +17,9 @@ footer:
   since: 2019
 
 # Author 
-author: 'Rokhimin whd'
-nickname: 'whdzera'
-bio: 'hi @everyone, im programmer ruby on rails. blogging as my hobby'
+author: 'Jafeth'
+nickname: 'j4f3th'
+bio: 'Soy Jafeth un amante del hacking y de la ciberseguridad, estudio hacking desde el 2020 y mi mayor  aspiración es lograr ser "OSCP".'
 avatar: 'assets/img/profile.png'
 
 # Search
@@ -49,11 +49,11 @@ postPatterns: 'assets/img/banner.jpg'
 # SNS settings 
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
-  email: 'mailto:whdzera@gmail.com'
-  github: '//github.com/rokhimin'
-  linkedin: '//www.linkedin.com/in/rokhim-wahid-4b4209142'
-  instagram: '//www.instagram.com/rokhiminwahid'
-  twitter: '//twitter.com/rokhiminwahid'
+#  email: 'mailto:whdzera@gmail.com'
+  github: '//github.com/j4f3th'
+#  linkedin: '//www.linkedin.com/in/rokhim-wahid-4b4209142'
+  instagram: '//www.instagram.com/j4f3th'
+#  twitter: '//twitter.com/rokhiminwahid'
 
 # Tags 
 recommend-tags: true # whether or not display recommend-tags on the sidebar

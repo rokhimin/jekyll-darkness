@@ -1,39 +1,3 @@
 [
   
-    {
-      "title"    : "Darkness",
-      "tags"     : "jekyll",
-      "url"      : "/darkness.rb"
-    } ,
-  
-    {
-      "title"    : "My Banner Blog",
-      "tags"     : "",
-      "url"      : "/first-banner-blog.rb"
-    } ,
-  
-    {
-      "title"    : "Deploy Discordrb to Heroku",
-      "tags"     : "ruby discordrb",
-      "url"      : "/discordrb-heroku.rb"
-    } ,
-  
-    {
-      "title"    : "RSSFeed to discord with Zapier",
-      "tags"     : "automation",
-      "url"      : "/rssfeed-to-discord-with-zapier.rb"
-    } ,
-  
-    {
-      "title"    : "RSSFeed to discord with Huginn",
-      "tags"     : "automation",
-      "url"      : "/rssfeed-to-discord-with-huginn.rb"
-    } ,
-  
-    {
-      "title"    : "Install Ruby on Rails di Linux Ubuntu",
-      "tags"     : "ruby rails",
-      "url"      : "/install-ruby-on-rails-di-linux.rb"
-    } 
-  
 ]
